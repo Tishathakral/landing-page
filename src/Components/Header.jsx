@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <>
   {/* component */}
-  <div className="border-b-2 shadow-md border-gray-100 pb-5 bg-yellow-100">
+  <div className=" drop-shadow-2xl border-gray-100 pb-5 bg-yellow-100">
   <div className="max-w-7xl mx-auto px-4 sm:px-6">
     {/* Logo and Subscribe Section */}
     <div className="flex flex-col-reverse md:flex-row min-w-full py-2 space-y-8 justify-center md:justify-between md:space-x-10 ">
@@ -62,25 +62,25 @@ const Header = () => {
     {/* Division Line */}
     <hr className="my-4 border-t border-gray-300" />
     {/* Navigation Section */}
-    <nav id="bar" className="flex justify-center bg-green-700"> {/* Change background color here */}
-      <div className="flex flex-col md:flex-row justify-center md:space-y-0 my-4 space-y-2  text-center text-white">
+    <nav id="bar" className="flex justify-start bg-green-700 border-spacing-8"> {/* Change background color here */}
+      <div className="flex flex-col md:flex-row justify-center md:space-y-0 my-4 space-y-2  text-center text-white text-lg font-sans">
         <a
           href="#"
-          className="mx-8 hover:text-red-900 active"
+          className="mx-10 hover:text-red-900 active"
           aria-current="page"
         >
           {" "}
           How to Meditate{" "}
         </a>
-        <a href="#" className="mx-8 hover:text-red-900">
+        <a href="#" className="mx-10 hover:text-red-900">
           {" "}
           Learn{" "}
         </a>
-        <a href="#" className="mx-8 hover:text-red-900">
+        <a href="#" className="mx-10 hover:text-red-900">
           {" "}
          Work
         </a>
-        <a href="#" className="mx-8 hover:text-red-900">
+        <a href="#" className="mx-10 hover:text-red-900">
           {" "}
          About{" "}
         </a>
@@ -88,7 +88,6 @@ const Header = () => {
     </nav>
   </div>
 </div>
-
 </>
   );
 };
