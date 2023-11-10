@@ -20,7 +20,7 @@ const Hero = () => {
               </p>
               <a
                 href="#"
-                className="bg-fuchsia-900 text-white py-4 px-12 rounded-full hover:bg-indigo-600"
+                className="bg-fuchsia-900 text-white py-4 px-12 rounded-full hover:bg-green-600"
               >
                 Demo
               </a>

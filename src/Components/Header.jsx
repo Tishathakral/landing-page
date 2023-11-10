@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from "/logo2.png"
 
 const Header = () => {
   return (
@@ -11,7 +12,7 @@ const Header = () => {
       <div className="flex-1 md:self-start flex-col justify-center">
         <a href="#">
           <div className="flex justify-start items-center flex-row">
-            <img src="public/logo2.png" className="h-20 w-20 " alt="" />
+            <img src={logo} className="h-20 w-20 " alt="" />
             <span className="pt-1 mx-1 text-4xl italic font-serif text-red-700 hover:text-gray-900">
               Harmony <div className="text-2xl">Within</div>
             </span>

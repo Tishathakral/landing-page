@@ -19,7 +19,7 @@ const GuidedLessons = () => {
       {
         description: 'Meditation is renowned for its stress-relieving benefits. Mindfulness meditation cultivates awareness, enabling individuals to respond to stressors with greater composure and resilience.',
         title: 'Stress Reduction:',
-        imageUrl: 'https://image.lexica.art/full_jpg/fd7b0cad-caab-46dc-9767-b6c331744b09', // Replace with your actual image URL
+        imageUrl: 'https://www.cedars-sinai.org/content/dam/cedars-sinai/blog/2019/07/common-physical-symptoms-of-hidden-stress.jpg', // Replace with your actual image URL
       },
       {
         description: 'Regular meditation enhances concentration and attention span. It nurtures cognitive skills that boost productivity and the ability to stay focused on tasks with clarity.',
@@ -34,17 +34,17 @@ const GuidedLessons = () => {
       {
         description: 'Meditation encourages self-reflection and awareness. Through mindfulness practice, individuals gain a deeper understanding of their thoughts and emotions, fostering personal growth and inner peace.',
         title: 'Enhanced Self-Awareness',
-        imageUrl: 'https://placekitten.com/803/603', // Replace with your actual image URL
+        imageUrl: 'https://www.psychometrics.com/wp-content/uploads/2021/01/young-african-american-Businesswomen-standing-in-front-of-a-mirror-looking-at-her-reflection-and-imagine-herself-successful.-Business-cartoon-vector-concept.jpeg', // Replace with your actual image URL
       },
       {
         description: 'Meditation contributes to improved sleep. By calming the mind and reducing stress, individuals find it easier to relax before bedtime, leading to more restful and rejuvenating sleep.',
         title: 'Better Sleep Quality',
-        imageUrl: 'https://placekitten.com/803/603', // Replace with your actual image URL
+        imageUrl: 'https://image.lexica.art/full_jpg/0511400a-14d9-44f3-9fa9-ee29bc94b5a1', // Replace with your actual image URL
       },
       {
         description: 'Mindfulness, a key component of meditation, involves non-judgmental attention to the present moment. This heightened awareness leads to better decision-making, improved relationships, and overall clarity in daily life.',
         title: 'Increased Mindfulness',
-        imageUrl: 'https://placekitten.com/803/603', // Replace with your actual image URL
+        imageUrl: 'https://i0.wp.com/news.med.miami.edu/wp-content/uploads/2023/05/Getty-Mindfulness-750x500-1.jpg?ssl=1', // Replace with your actual image URL
       },
     ];
   
