@@ -10,23 +10,20 @@ const Header = () => {
 
   return (
     <>
-      {/* component */}
       <div className="drop-shadow-2xl border-gray-100 md:pb-5 pb-1 bg-yellow-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           {/* Logo Section */}
-          <div className="flex flex-col-reverse md:flex-row min-w-full py-2 space-y-8 justify-center md:justify-between md:space-x-10 ">
-            <div className="flex-1 md:self-start flex-col justify-center">
-              <a href="#">
-                <div className="flex justify-start items-center flex-row">
-                  <img src={logo} className="h-16 w-16 sm:h-20 sm:w-20 " alt="" />
-                  <span className="pt-1 mx-1 text-2xl sm:text-4xl italic font-serif text-red-700 hover:text-gray-900">
-                    Harmony <div className="text-lg sm:text-2xl">Within</div>
-                  </span>
-                </div>
+          <div className="flex flex-col-reverse md:flex-row min-w-full py-2 space-y-8 md:justify-between">
+            <div className="flex-1 md:self-start md:flex md:items-center">
+              <a href="#" className="flex items-center">
+                <img src={logo} className="h-16 w-16 sm:h-20 sm:w-20" alt="" />
+                <span className="pt-1 mx-1 text-2xl sm:text-4xl italic font-serif text-red-700 hover:text-gray-900">
+                  Harmony <div className="text-lg sm:text-2xl">Within</div>
+                </span>
               </a>
             </div>
             {/* Hamburger Menu Icon */}
-            <div className="md:hidden cursor-pointer absolute right-10" onClick={toggleMenu}>
+            <div className="md:hidden cursor-pointer absolute right-10 -top-1" onClick={toggleMenu}>
               <svg
                 className="w-6 h-6"
                 fill="none"
