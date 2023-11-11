@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
-import useSound from "use-sound";
 import GuidedLessons from "./Components/GuidedLessons";
 
 function App() {

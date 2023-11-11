@@ -1,7 +1,4 @@
 import React from 'react';
-import useSound from 'use-sound';
-import Waveform from './WaveForm';
-
 const Hero = () => {
   return (
     <>
