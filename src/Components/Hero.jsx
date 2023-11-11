@@ -26,7 +26,6 @@ const Hero = () => {
                 Demo
               </a>
             </div>
-            <Waveform audioFile="/audio1.mp3" />
           </div>
         </div>
       </section>
