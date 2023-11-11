@@ -1,5 +1,6 @@
 import React from 'react';
 import useSound from 'use-sound';
+import Waveform from './WaveForm';
 
 const Hero = () => {
   return (
@@ -25,6 +26,7 @@ const Hero = () => {
                 Demo
               </a>
             </div>
+            <Waveform audioFile="/audio1.mp3" />
           </div>
         </div>
       </section>

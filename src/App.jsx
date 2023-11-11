@@ -9,7 +9,7 @@ function App() {
     <div>
       <Header />
       <Hero />
-      <div className=" text-center text-5xl my-16 underline decoration-line">6 Reasons Why You should Meditate</div>
+      <div className=" text-center md:text-5xl md:my-16 text-2xl my-8 font-bold underline decoration-line">6 Reasons Why You should Meditate</div>
       <GuidedLessons/>
     </div>
   );
