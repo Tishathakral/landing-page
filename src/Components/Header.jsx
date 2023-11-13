@@ -47,29 +47,34 @@ const Header = () => {
             id="bar"
             className={`${
               isMenuOpen ? 'block' : 'hidden'
-            } md:flex flex-col sm:flex-row items-center border-spacing-8 md:bg-[url("https://static.vecteezy.com/system/resources/thumbnails/026/942/074/small/ai-generative-rusty-green-rock-surface-texture-closeup-marble-or-ceramic-tile-effect-toned-dark-green-stone-background-with-copy-space-for-design-wide-banner-panoramic-photo.jpg")] backdrop-blur-2 rounded-lg w-full`}
+            } md:flex flex-col sm:flex-row items-center border-spacing-8'`}
           >
-            <div className='backdrop-blur-sm w-full rounded md:flex justify-start'>
-              <div className="flex flex-col sm:flex-row justify-center sm:space-y-0 my-4 space-y-2 text-center text-black md:text-white text-lg font-gotham">
+            <div className='backdrop-blur-sm w-full rounded md:flex justify-center'>
+              <div className="flex flex-col sm:flex-row justify-center sm:space-y-0 space-y-2 text-center text-black text-lg font-gotham">
                 <a
-                  href="#"
+                  href="#why"
                   className="mx-2 sm:mx-4 hover:scale-110 active"
                   aria-current="page"
+                  onClick={toggleMenu}
                 >
-                  {" "}
-                  How to Meditate{" "}
+                  Why
                 </a>
-                <a href="#" className="mx-2 sm:mx-4 hover:scale-110 active">
-                  {" "}
-                  Learn{" "}
+                <a href="#sounds"
+                 className="mx-2 sm:mx-4 hover:scale-110 active"
+                 onClick={toggleMenu}
+                 >
+                  
+                 
+                 Explore
                 </a>
-                <a href="#" className="mx-2 sm:mx-4 hover:scale-110 active">
-                  {" "}
-                  Work
+                <a href="#discover" className="mx-2 sm:mx-4 hover:scale-110 active" 
+                onClick={toggleMenu}>
+                 
+                  Discover Music
                 </a>
-                <a href="#" className="mx-2 sm:mx-4 hover:scale-110 active">
-                  {" "}
-                  About{" "}
+                <a href="#faq" className="mx-2 sm:mx-4 hover:scale-110 active"
+                 onClick={toggleMenu}>
+                  FAQ
                 </a>
               </div>
             </div>

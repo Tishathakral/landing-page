@@ -3,8 +3,8 @@ import React from 'react';
 
 const NatureInfo = () => {
   return (
-    <div className=" w-full md:w-2/3 p-4 bg-gray-100 rounded-lg shadow-md left-10 md:ml-5 h-full">
-      <h2 className="text-3xl font-semibold mb-4 text-center md:text-left">Sounds That Will help you Explore</h2>
+    <div className=" lg:w-2/3 w-full md:w-1/2 p-4 bg-gray-100 rounded-lg shadow-md left-10 md:ml-5 h-full">
+      <h2 id="sounds" className="text-3xl font-semibold mb-4 text-center md:text-left text decoration underline">Sounds That Will help you Explore</h2>
       <p className="mb-4 text-center md:text-left">
         The calming sounds of nature play a crucial role in meditation, promoting relaxation and
         mindfulness. Explore different nature sounds to enhance your meditation experience.

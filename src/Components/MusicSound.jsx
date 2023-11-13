@@ -83,9 +83,9 @@ const MeditationPlayer = () => {
       
 
       {/* Right side with audio player*/}
-<div className="w-full md:w-1/3 mx-0 md:mx-8 p-6 md:p-8 bg-gray-100 rounded-lg shadow-md flex flex-col items-center">
+<div className="lg:w-1/3 w-full md:w-1/2 mx-0 md:mx-8 p-6 md:p-8 bg-gray-100 rounded-lg shadow-md flex flex-col items-center">
   <div className="w-full p-6 text-center">
-    <h1 className="text-3xl font-bold text-red-500 mb-5">Discover Now Here!</h1>
+    <h1 id="discover"className="text-3xl font-bold text-red-500 mb-5 text-decoration underline">Discover Now Here!</h1>
   </div>
 
   {/* Dropdown for Audio Types */}
