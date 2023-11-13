@@ -17,8 +17,8 @@ const Hero = () => {
               Embrace a journey of self-discovery and well-being, because your mental health matters
               </p>
               <a
-                href="#"
-                className="bg-fuchsia-900 text-white py-2 px-6 md:py-4 md:px-12 rounded-full hover:bg-green-600"
+                href="#discover"
+                className="bg-fuchsia-900 text-white py-2 px-6 md:py-4 md:px-12 rounded-full hover:bg-fuchsia-800 transition duration-300 ease-in-out"
               >
                 Demo
               </a>

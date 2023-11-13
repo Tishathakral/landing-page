@@ -3,7 +3,7 @@ import React from 'react';
 // New component for guided lesson card
 const GuidedLessonCard = ({ title, description, imageUrl }) => {
   return (
-    <div className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 p-4 transform transition-transform hover:scale-105">
+    <div className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 p-4 transform hover:scale-105 transition duration-300 ease-in-out">
       <div className="bg-white rounded-lg p-6 h-full shadow-md hover:shadow-lg transition-shadow">
         <img src={imageUrl} alt={title} className="w-full h-48 object-cover mb-4 rounded-md" />
         <h2 className="text-2xl font-medium mb-2 text-black">{title}</h2>

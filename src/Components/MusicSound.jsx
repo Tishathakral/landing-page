@@ -85,7 +85,7 @@ const MeditationPlayer = () => {
       {/* Right side with audio player*/}
 <div className="lg:w-1/3 w-full md:w-1/2 mx-0 md:mx-8 p-6 md:p-8 bg-gray-100 rounded-lg shadow-md flex flex-col items-center">
   <div className="w-full p-6 text-center">
-    <h1 id="discover"className="text-3xl font-bold text-red-500 mb-5 text-decoration underline">Discover Now Here!</h1>
+    <h1 id="discover"className="text-3xl font-bold text-rose-900 mb-5 text-decoration underline">Discover Now Here!</h1>
   </div>
 
   {/* Dropdown for Audio Types */}
@@ -97,7 +97,7 @@ const MeditationPlayer = () => {
       id="audioTypeSelect"
       value={selectedAudioType}
       onChange={(e) => changeAudioType(e.target.value)}
-      className="w-full px-4 py-2 rounded-md"
+      className="w-full px-4 py-2 rounded-md hover:scale-105 transition duration-300 ease-in-out"
     >
       <option value="natureSounds">Nature Sounds</option>
       <option value="classical">Classical Music</option>
@@ -105,13 +105,13 @@ const MeditationPlayer = () => {
   </div>
 
   {/* Upper Part */}
-  <div className="mb-8 flex items-center space-x-4">
+  <div className="mb-8 flex items-center space-x-4 hover:scale-105 transition duration-300 ease-in-out">
     {/* Image and Name */}
     <div className="flex items-center space-x-4">
       <img
         src={audioList[selectedAudioType][currentAudio].image}
         alt="Meditation Icon"
-        className="w-24 h-24 rounded-full cursor-pointer border-4 border-blue-500"
+        className="w-24 h-24 rounded-full cursor-pointer border-4 border-rose-950"
         onClick={() => playSpecificAudio(currentAudio)}
       />
       <div>
@@ -121,7 +121,7 @@ const MeditationPlayer = () => {
         <div className="flex items-center space-x-2 mt-2">
           <button
             onClick={togglePlay}
-            className="bg-blue-500 text-white px-4 py-2 rounded-md"
+            className="bg-rose-950 text-white px-4 py-2 rounded-md hover:scale-105 transition duration-300 ease-in-out"
           >
             {isPlaying ? 'Pause' : 'Play'}
           </button>
@@ -138,7 +138,7 @@ const MeditationPlayer = () => {
         <img
           src={audio.image}
           alt={`${selectedAudioType} Icon ${index}`}
-          className="w-32 h-32 rounded-lg cursor-pointer border-2 border-gray-500"
+          className="w-32 h-32 rounded-lg cursor-pointer border-2 border-gray-500 hover:scale-105 transition duration-300 ease-in-out"
           onClick={() => playSpecificAudio(index)}
         />
         <p className="text-xs mt-2">{audio.title}</p>

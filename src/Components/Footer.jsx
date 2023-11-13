@@ -24,10 +24,10 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Your email"
-              className="border p-3 rounded-full"
+              className="border p-3 rounded-full hover:scale-105 transition duration-300 ease-in-out"
               // Add your state and onChange handler for the email input
             />
-            <button className="bg-fuchsia-500 text-white px-4 py-3 rounded-full">Subscribe</button>
+            <button className="bg-fuchsia-500 text-white px-4 py-3 rounded-full hover:scale-105 transition duration-300 ease-in-out">Subscribe</button>
           </div>
           <p className=" text-sm md:text-lg text-center px-2">
             Subscribe to our newsletter and stay updated with our latest meditations and news.
