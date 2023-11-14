@@ -24,20 +24,39 @@ const Header = () => {
             </div>
             {/* Hamburger Menu Icon */}
             <div className="md:hidden cursor-pointer absolute right-10 -top-1" onClick={toggleMenu}>
-              <svg
-                className="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16m-7 6h7"
-                ></path>
-              </svg>
+              {isMenuOpen ? (
+                // Cross Icon when the menu is open
+                <svg
+                  className="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  ></path>
+                </svg>
+              ) : (
+                // Hamburger Icon when the menu is closed
+                <svg
+                  className="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M4 6h16M4 12h16m-7 6h7"
+                  ></path>
+                </svg>
+              )}
             </div>
           </div>
           {/* Division Line */}
@@ -59,21 +78,25 @@ const Header = () => {
                 >
                   Why
                 </a>
-                <a href="#sounds"
-                 className="mx-2 sm:mx-4 hover:scale-110 active"
-                 onClick={toggleMenu}
-                 >
-                  
-                 
-                 Explore
+                <a
+                  href="#sounds"
+                  className="mx-2 sm:mx-4 hover:scale-110 active"
+                  onClick={toggleMenu}
+                >
+                  Explore
                 </a>
-                <a href="#discover" className="mx-2 sm:mx-4 hover:scale-110 active" 
-                onClick={toggleMenu}>
-                 
+                <a
+                  href="#discover"
+                  className="mx-2 sm:mx-4 hover:scale-110 active"
+                  onClick={toggleMenu}
+                >
                   Discover Music
                 </a>
-                <a href="#faq" className="mx-2 sm:mx-4 hover:scale-110 active"
-                 onClick={toggleMenu}>
+                <a
+                  href="#faq"
+                  className="mx-2 sm:mx-4 hover:scale-110 active"
+                  onClick={toggleMenu}
+                >
                   FAQ
                 </a>
               </div>

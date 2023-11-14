@@ -74,6 +74,7 @@ const MeditationPlayer = () => {
     audioRef.current.src = audioList[selectedAudioType][index].src;
     audioRef.current.play();
     setIsPlaying(true);
+    togglePlay();
   };
 
   return (

@@ -3,7 +3,7 @@ import { FaTwitter, FaFacebook, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-green-900 text-white py-8 px-8">
+    <footer className="bg-green-900 text-white py-8 px-8 md:px-32 lg:px-16">
       <div className="container flex flex-col lg:flex-row justify-between items-center">
         {/* Left side of the footer */}
         <div className="flex flex-col lg:space-y-4 lg:w-1/3">
@@ -27,7 +27,7 @@ const Footer = () => {
               className="border p-3 rounded-full hover:scale-105 transition duration-300 ease-in-out"
               // Add your state and onChange handler for the email input
             />
-            <button className="bg-fuchsia-500 text-white px-4 py-3 rounded-full hover:scale-105 transition duration-300 ease-in-out">Subscribe</button>
+            <button className="bg-fuchsia-500 text-white px-2 py-3 rounded-full hover:scale-105 transition duration-300 ease-in-out">Subscribe</button>
           </div>
           <p className=" text-sm md:text-lg text-center px-2">
             Subscribe to our newsletter and stay updated with our latest meditations and news.
